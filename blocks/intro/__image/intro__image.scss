@@ -5,3 +5,9 @@
   object-fit: cover;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 567px) {
+  .intro__image {
+    border-radius: 4px;
+  }
+}

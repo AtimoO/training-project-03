@@ -1,0 +1,28 @@
+.support__button {
+  cursor: pointer;
+  border: 0px;
+  background-color: #47474c;
+  color: $colorPrimaryText;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: .38px;
+  text-align: center;
+  margin: 90px 0 0;
+  border-radius: 8px;
+  padding: 13px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .support__button {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .support__button {
+    margin-top: 50px;
+    padding: 16px 33px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

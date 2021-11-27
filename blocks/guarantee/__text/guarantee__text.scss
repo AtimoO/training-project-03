@@ -5,3 +5,11 @@
   color: $colorSecondaryText;
   margin: 38px 20px 20px;
 }
+
+@media screen and (max-width: 567px) {
+  .guarantee__text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 36px;
+  }
+}

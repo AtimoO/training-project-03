@@ -7,3 +7,17 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro__items {
+    grid-template-columns: 173px 1fr 180px;
+    grid-template-rows: 230px 344px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .intro__items {
+    grid-template-columns: 1fr;
+    grid-template-rows: 142px 67px 124px 211px;
+  }
+}

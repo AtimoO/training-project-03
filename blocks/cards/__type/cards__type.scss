@@ -5,3 +5,10 @@
   color: $colorSecondaryText;
   margin: 40px 40px 0;
 }
+
+@media screen and (max-width: 567px) {
+  .cards__type {
+    font-size: 18px;
+    margin: 20px 20px 0;
+  }
+}

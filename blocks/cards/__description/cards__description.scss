@@ -5,3 +5,11 @@
   color: $colorSecondaryText;
   margin: 40px;
 }
+
+@media screen and (max-width: 567px) {
+  .cards__description {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 28px 20px 100px;
+  }
+}

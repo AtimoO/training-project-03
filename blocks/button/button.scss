@@ -1,4 +1,5 @@
 .button {
+  content: "";
   cursor: pointer;
   border-radius: 0 8px 8px 0;
   border: 0px;
@@ -10,4 +11,19 @@
   text-align: center;
   margin: 0;
   padding: 13px 16px;
+
+  &::before {
+    content: 'Отремонтируйте камеру ✌️';
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .button {
+    padding: 10px 20px;
+    height: 50px;
+
+    &::before {
+      content: '✌️';
+    }
+  }
 }
