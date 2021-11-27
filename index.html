@@ -15,7 +15,7 @@
   <body class="page">
     <!-- Header -->
     <header class="header section">
-      <div class="logo">
+      <div class="logo logo_indent">
         <p class="logo__title">C-Works</p>
         <p class="logo__opened">мы открылись</p>
       </div>
@@ -24,7 +24,7 @@
       <form action="#" class="repair">
         <div class="repair__container">
           <input class="repair__input-email" type="text" />
-          <button class="button">Отремонтируйте камеру ✌️</button>
+          <button class="button"></button>
         </div>
         <p class="repair__caption">Напишите нам и мы свяжемся с вами.</p>
       </form>
@@ -34,38 +34,36 @@
     <main>
       <!-- Intro -->
       <section class="intro" aria-label="Фотоаппараты">
-        <div class="intro__container">
-          <ul class="intro__items">
-            <li class="intro__item">
-              <img
-                src="images/photo-1.jpg"
-                alt="Фотоаппарат"
-                class="intro__image"
-              />
-            </li>
-            <li class="intro__item">
-              <img
-                src="images/photo-3.jpg"
-                alt="Желтый блок"
-                class="intro__image"
-              />
-            </li>
-            <li class="intro__item">
-              <img
-                src="images/photo-4.jpg"
-                alt="Зеленый блок"
-                class="intro__image"
-              />
-            </li>
-            <li class="intro__item">
-              <img
-                src="images/photo-2.jpg"
-                alt="Фотоаппарат"
-                class="intro__image"
-              />
-            </li>
-          </ul>
-        </div>
+        <ul class="intro__items">
+          <li class="intro__item">
+            <img
+              src="images/photo-1.jpg"
+              alt="Фотоаппарат"
+              class="intro__image"
+            />
+          </li>
+          <li class="intro__item">
+            <img
+              src="images/photo-3.jpg"
+              alt="Желтый блок"
+              class="intro__image"
+            />
+          </li>
+          <li class="intro__item">
+            <img
+              src="images/photo-4.jpg"
+              alt="Зеленый блок"
+              class="intro__image"
+            />
+          </li>
+          <li class="intro__item">
+            <img
+              src="images/photo-2.jpg"
+              alt="Фотоаппарат"
+              class="intro__image"
+            />
+          </li>
+        </ul>
       </section>
 
       <!-- description -->
@@ -138,7 +136,7 @@
       <!-- support -->
       <section class="support section">
         <h2 class="section__title">Поддержите нас 🤝</h2>
-        <button class="button button_support">
+        <button class="support__button">
           Напишите нам если хотите помочь!
         </button>
         <p class="support__text">
@@ -150,17 +148,25 @@
 
     <!-- Footer -->
     <footer class="footer section">
-      <div class="logo">
+      <div class="logo logo_indent">
         <p class="logo__title">C-Works</p>
         <p class="logo__opened">мы открылись</p>
       </div>
-      <form action="#" class="repair">
-        <div class="repair__container">
-          <input class="repair__input-email" type="text" />
-          <button class="button">Отремонтируйте камеру ✌️</button>
-        </div>
-        <p class="repair__caption">Напишите нам и мы свяжемся с вами.</p>
-      </form>
+      <div class="footer__container">
+        <form action="#" class="repair">
+          <div class="repair__container">
+            <input
+              class="repair__input-email repair__input-email_size"
+              type="text"
+            />
+            <button class="button button_size" type="submit"></button>
+          </div>
+          <p class="repair__caption repair__caption_indent">
+            Напишите нам и мы свяжемся с вами.
+          </p>
+        </form>
+        <p class="footer__copyright">© C-Works, 2021.</p>
+      </div>
     </footer>
 
     <!-- Scripts -->

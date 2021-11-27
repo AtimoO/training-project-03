@@ -2,3 +2,9 @@
   display: flex;
   margin-top: 84px;
 }
+
+@media screen and (max-width: 567px) {
+  .repair__container {
+    margin-top: 184px;
+  }
+}

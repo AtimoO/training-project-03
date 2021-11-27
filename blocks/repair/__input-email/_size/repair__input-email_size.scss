@@ -1,0 +1,15 @@
+.repair__input-email_size {
+  min-width: 316px;
+}
+
+/* @media screen and (max-width: 767px) {
+  .repair__input-email {
+    min-width: min(395px, calc(100% - 150px));
+  }
+} */
+
+@media screen and (max-width: 567px) {
+  .repair__input-email_size {
+    min-width: 197px;
+  }
+}

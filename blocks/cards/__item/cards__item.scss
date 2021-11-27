@@ -1,5 +1,18 @@
 .cards__item {
-  width: 550px;
+  max-width: 550px;
   border-radius: 16px;
   background-color: $colorCards;
+}
+
+@media screen and (max-width: 767px) {
+  .cards__item {
+    max-width: 648px;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .cards__item {
+    min-width: 280px;
+  }
 }

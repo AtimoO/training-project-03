@@ -3,3 +3,16 @@
   border-radius: 10px;
   background-color: $colorCards;
 }
+
+@media screen and (max-width: 767px) {
+  .guarantee__item {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .guarantee__item {
+    min-width: 280px;
+    min-height: 148px;
+  }
+}

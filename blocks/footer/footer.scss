@@ -1,8 +1,8 @@
 .footer {
-  padding-top: 150px;
+  padding-top: 180px;
   padding-bottom: 60px;
 
-  &::before{
+  &::before {
     content: "";
     background-color: #151515;
     width: calc(100% - 320px);
@@ -11,3 +11,22 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding-top: 150px;
+
+    &::before {
+      width: calc(100% - 120px);
+    }
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .footer {
+    padding-bottom: 20px;
+
+    &::before {
+      width: calc(100% - 40px);
+    }
+  }
+}

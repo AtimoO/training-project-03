@@ -4,3 +4,10 @@
   line-height: 32px;
   margin: 20px 40px 0;
 }
+
+@media screen and (max-width: 567px) {
+  .cards__title {
+    font-size: 24px;
+    margin: 10px 20px 0;
+  }
+}
