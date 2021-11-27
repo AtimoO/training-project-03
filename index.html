@@ -14,23 +14,158 @@
 
   <body class="page">
     <!-- Header -->
-    <header class="header">
-      test
+    <header class="header section">
+      <div class="logo">
+        <p class="logo__title">C-Works</p>
+        <p class="logo__opened">мы открылись</p>
+      </div>
+      <h1 class="header__title">Ремонт</h1>
+      <p class="header__subtitle">Плёночных фотоаппаратов</p>
+      <form action="#" class="repair">
+        <div class="repair__container">
+          <input class="repair__input-email" type="text" />
+          <button class="button">Отремонтируйте камеру ✌️</button>
+        </div>
+        <p class="repair__caption">Напишите нам и мы свяжемся с вами.</p>
+      </form>
     </header>
 
     <!-- Content -->
-    <main class="content">
+    <main>
       <!-- Intro -->
-      <section class="intro" aria-label="Название"></section>
+      <section class="intro" aria-label="Фотоаппараты">
+        <div class="intro__container">
+          <ul class="intro__items">
+            <li class="intro__item">
+              <img
+                src="images/photo-1.jpg"
+                alt="Фотоаппарат"
+                class="intro__image"
+              />
+            </li>
+            <li class="intro__item">
+              <img
+                src="images/photo-3.jpg"
+                alt="Желтый блок"
+                class="intro__image"
+              />
+            </li>
+            <li class="intro__item">
+              <img
+                src="images/photo-4.jpg"
+                alt="Зеленый блок"
+                class="intro__image"
+              />
+            </li>
+            <li class="intro__item">
+              <img
+                src="images/photo-2.jpg"
+                alt="Фотоаппарат"
+                class="intro__image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- description -->
+      <section class="description section">
+        <p class="description__text">
+          Мы ремонтируем плёночные фотоаппараты. Полносстью механические камеры,
+          относительно современные камеры на электронике, проводим CLA камер,
+          принимаем в зачёт оплаты сломаные тушки и объективы.
+        </p>
+        <h2 class="section__title">Для энтузиастов, от энтузиастов 👈</h2>
+      </section>
+
+      <!-- cards -->
+      <section class="cards section">
+        <ul class="cards__items">
+          <li class="cards__item">
+            <p class="cards__type">CLA</p>
+            <h3 class="cards__title">Чистка камер.</h3>
+            <p class="cards__description">
+              Замена уплотнителей, дампфера зеркала, смазка механизмов,
+              юстировка.
+            </p>
+            <p class="cards__price">от 2000₽</p>
+          </li>
+          <li class="cards__item">
+            <p class="cards__type">Ремонт</p>
+            <h3 class="cards__title">Ремонт камер.</h3>
+            <p class="cards__description">
+              Ремонт механизмов, замена деталей, пайка электроники, адаптация
+              питания.
+            </p>
+            <p class="cards__price">от 2500₽</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- guarantee -->
+      <section class="guarantee section">
+        <h2 class="section__title">Полная гарантия ⚡️</h2>
+        <ul class="guarantee__items">
+          <li class="guarantee__item">
+            <h4 class="guarantee__title">CLA</h4>
+            <p class="guarantee__text">
+              После CLA мы даем гарантию на 1 год, в случае беды мы заново
+              обслужим вашу камеру.
+            </p>
+          </li>
+          <li class="guarantee__item">
+            <h4 class="guarantee__title">Ремонт</h4>
+            <p class="guarantee__text">
+              После ремонта мы даем гарантию на 3 месяца или 6 месяцев.
+            </p>
+          </li>
+          <li class="guarantee__item">
+            <h4 class="guarantee__title">Пайка и адаптация</h4>
+            <p class="guarantee__text">
+              После пайки и адаптации питания мы даем гарантию на 1 год.
+            </p>
+          </li>
+          <li class="guarantee__item">
+            <h4 class="guarantee__title">Осмотр</h4>
+            <p class="guarantee__text">
+              Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь
+              сами.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- support -->
+      <section class="support section">
+        <h2 class="section__title">Поддержите нас 🤝</h2>
+        <button class="button button_support">
+          Напишите нам если хотите помочь!
+        </button>
+        <p class="support__text">
+          Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё
+          создали аккаунт, но как только это сделаем, сообщим вам.
+        </p>
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer"></footer>
+    <footer class="footer section">
+      <div class="logo">
+        <p class="logo__title">C-Works</p>
+        <p class="logo__opened">мы открылись</p>
+      </div>
+      <form action="#" class="repair">
+        <div class="repair__container">
+          <input class="repair__input-email" type="text" />
+          <button class="button">Отремонтируйте камеру ✌️</button>
+        </div>
+        <p class="repair__caption">Напишите нам и мы свяжемся с вами.</p>
+      </form>
+    </footer>
 
     <!-- Scripts -->
     <!-- <script src="scripts/intro.js" defer></script> -->
   </body>
 </html>
-
 
 <!-- перепроверяй пути относительно pages! -->
