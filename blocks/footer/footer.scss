@@ -1,0 +1,13 @@
+.footer {
+  padding-top: 150px;
+  padding-bottom: 60px;
+
+  &::before{
+    content: "";
+    background-color: #151515;
+    width: calc(100% - 320px);
+    height: 2px;
+    position: absolute;
+  }
+}
+
