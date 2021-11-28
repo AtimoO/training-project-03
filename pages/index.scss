@@ -1,13 +1,19 @@
 /* vendor */
 @import '../vendor/normalize';
 @import '../vendor/fonts';
+
+/* variables */
 @import '../blocks/variables.scss';
-@import '../blocks/mixins.scss';
+
+/* page */
 @import '../blocks/page/page.scss';
 
 /* section */
 @import '../blocks/section/section.scss';
 @import '../blocks/section/__title/section__title.scss';
+
+/* link */
+@import '../blocks/link/link.scss';
 
 /* header */
 @import '../blocks/header/header.scss';
@@ -16,12 +22,13 @@
 
 /* logo */
 @import '../blocks/logo/logo.scss';
-@import '../blocks/logo/_indent/logo_indent.scss';
+@import '../blocks/logo/_indent-header/logo_indent-header.scss';
+@import '../blocks/logo/_indent-footer/logo_indent-footer.scss';
 @import '../blocks/logo/__title/logo__title.scss';
 @import '../blocks/logo/__opened/logo__opened.scss';
 
 /* repait */
-@import '../blocks/repair/repair.scss'; /* empty*/
+@import '../blocks/repair/repair.scss';
 @import '../blocks/repair/__container/repair__container.scss';
 @import '../blocks/repair/__input-email/repair__input-email.scss';
 @import '../blocks/repair/__input-email/_size/repair__input-email_size.scss';
@@ -30,7 +37,6 @@
 
 /* button */
 @import '../blocks/button/button.scss';
-/* button_size */
 
 /* intro */
 @import '../blocks/intro/intro.scss';
