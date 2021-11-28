@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ремонт фотоопаратов</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/index.css" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Сайт ремонт Плёночных фотоопаратов">
+    <meta name="keywords" content="Фотоаппарат, Фотоаппараты, ремонт">
+    <meta name="author" content="C-Works">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
   </head>
 
   <body class="page">
-    <!-- Header -->
     <header class="header section">
-      <div class="logo logo_indent">
+      <div class="logo logo_indent-header">
         <p class="logo__title">C-Works</p>
         <p class="logo__opened">мы открылись</p>
       </div>
       <h1 class="header__title">Ремонт</h1>
       <p class="header__subtitle">Плёночных фотоаппаратов</p>
-      <form action="#" class="repair">
+      <form class="repair" method="POST" action="#" name="repair">
         <div class="repair__container">
-          <input class="repair__input-email" type="text" />
-          <button class="button"></button>
+          <input
+            class="repair__input-email"
+            name="emailHeader"
+            id="emailHeader"
+            type="email"
+            required
+          >
+          <button
+            class="button"
+            name="submitHeader"
+            id="submitHeader"
+            type="submit"
+          ></button>
         </div>
         <p class="repair__caption">Напишите нам и мы свяжемся с вами.</p>
       </form>
@@ -40,28 +49,28 @@
               src="images/photo-1.jpg"
               alt="Фотоаппарат"
               class="intro__image"
-            />
+            >
           </li>
           <li class="intro__item">
             <img
               src="images/photo-3.jpg"
               alt="Желтый блок"
               class="intro__image"
-            />
+            >
           </li>
           <li class="intro__item">
             <img
               src="images/photo-4.jpg"
               alt="Зеленый блок"
               class="intro__image"
-            />
+            >
           </li>
           <li class="intro__item">
             <img
               src="images/photo-2.jpg"
               alt="Фотоаппарат"
               class="intro__image"
-            />
+            >
           </li>
         </ul>
       </section>
@@ -80,22 +89,26 @@
       <section class="cards section">
         <ul class="cards__items">
           <li class="cards__item">
-            <p class="cards__type">CLA</p>
-            <h3 class="cards__title">Чистка камер.</h3>
-            <p class="cards__description">
-              Замена уплотнителей, дампфера зеркала, смазка механизмов,
-              юстировка.
-            </p>
-            <p class="cards__price">от 2000₽</p>
+            <a class="link" href="#repair">
+              <p class="cards__type">CLA</p>
+              <h3 class="cards__title">Чистка камер.</h3>
+              <p class="cards__description">
+                Замена уплотнителей, дампфера зеркала, смазка механизмов,
+                юстировка.
+              </p>
+              <p class="cards__price">от 2000₽</p>
+            </a>
           </li>
           <li class="cards__item">
-            <p class="cards__type">Ремонт</p>
-            <h3 class="cards__title">Ремонт камер.</h3>
-            <p class="cards__description">
-              Ремонт механизмов, замена деталей, пайка электроники, адаптация
-              питания.
-            </p>
-            <p class="cards__price">от 2500₽</p>
+            <a class="link" href="#repair">
+              <p class="cards__type">Ремонт</p>
+              <h3 class="cards__title">Ремонт камер.</h3>
+              <p class="cards__description">
+                Ремонт механизмов, замена деталей, пайка электроники, адаптация
+                питания.
+              </p>
+              <p class="cards__price">от 2500₽</p>
+            </a>
           </li>
         </ul>
       </section>
@@ -105,30 +118,38 @@
         <h2 class="section__title">Полная гарантия ⚡️</h2>
         <ul class="guarantee__items">
           <li class="guarantee__item">
-            <h4 class="guarantee__title">CLA</h4>
-            <p class="guarantee__text">
-              После CLA мы даем гарантию на 1 год, в случае беды мы заново
-              обслужим вашу камеру.
-            </p>
+            <a href="#repair" class="link">
+              <h3 class="guarantee__title">CLA</h3>
+              <p class="guarantee__text">
+                После CLA мы даем гарантию на 1 год, в случае беды мы заново
+                обслужим вашу камеру.
+              </p>
+            </a>
           </li>
           <li class="guarantee__item">
-            <h4 class="guarantee__title">Ремонт</h4>
-            <p class="guarantee__text">
-              После ремонта мы даем гарантию на 3 месяца или 6 месяцев.
-            </p>
+            <a href="#repair" class="link">
+              <h3 class="guarantee__title">Ремонт</h3>
+              <p class="guarantee__text">
+                После ремонта мы даем гарантию на 3 месяца или 6 месяцев.
+              </p>
+            </a>
           </li>
           <li class="guarantee__item">
-            <h4 class="guarantee__title">Пайка и адаптация</h4>
-            <p class="guarantee__text">
-              После пайки и адаптации питания мы даем гарантию на 1 год.
-            </p>
+            <a href="#repair" class="link">
+              <h3 class="guarantee__title">Пайка и адаптация</h3>
+              <p class="guarantee__text">
+                После пайки и адаптации питания мы даем гарантию на 1 год.
+              </p>
+            </a>
           </li>
           <li class="guarantee__item">
-            <h4 class="guarantee__title">Осмотр</h4>
-            <p class="guarantee__text">
-              Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь
-              сами.
-            </p>
+            <a href="#repair" class="link">
+              <h3 class="guarantee__title">Осмотр</h3>
+              <p class="guarantee__text">
+                Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем
+                деталь сами.
+              </p>
+            </a>
           </li>
         </ul>
       </section>
@@ -136,7 +157,12 @@
       <!-- support -->
       <section class="support section">
         <h2 class="section__title">Поддержите нас 🤝</h2>
-        <button class="support__button">
+        <button
+          class="support__button"
+          type="button"
+          name="support"
+          id="support"
+        >
           Напишите нам если хотите помочь!
         </button>
         <p class="support__text">
@@ -148,18 +174,26 @@
 
     <!-- Footer -->
     <footer class="footer section">
-      <div class="logo logo_indent">
+      <div class="logo logo_indent-footer">
         <p class="logo__title">C-Works</p>
         <p class="logo__opened">мы открылись</p>
       </div>
       <div class="footer__container">
-        <form action="#" class="repair">
+        <form class="repair" method="POST" action="#" name="repair" id="repair">
           <div class="repair__container">
             <input
               class="repair__input-email repair__input-email_size"
-              type="text"
-            />
-            <button class="button button_size" type="submit"></button>
+              name="emailFooter"
+              id="emailFooter"
+              type="email"
+              required
+            >
+            <button
+              class="button"
+              name="submitFooter"
+              id="submitFooter"
+              type="submit"
+            ></button>
           </div>
           <p class="repair__caption repair__caption_indent">
             Напишите нам и мы свяжемся с вами.
@@ -173,5 +207,3 @@
     <!-- <script src="scripts/intro.js" defer></script> -->
   </body>
 </html>
-
-<!-- перепроверяй пути относительно pages! -->

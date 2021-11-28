@@ -1,6 +1,5 @@
 .repair__input-email {
   margin: 0;
-  display: inline-block;
   min-width: 316px;
   padding: 13px 16px;
   font-size: 14px;
@@ -13,16 +12,20 @@
   border: 0;
   border-radius: 8px 0 0 8px;
   cursor: pointer;
+  outline: 0;
+  transition: background-color linear .15s;
+
+  &:hover {
+    background-color: rgba(142, 142, 152, 0.3);
+    transition: background-color linear .15s;
+  }
 
   &:focus {
     cursor: auto;
-    background-color: rgba(142, 142, 152, 0.3);
-    border-color: #bdbdbd;
-    outline: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .repair__input-email {
     min-width: min(395px, calc(100% - 150px));
   }

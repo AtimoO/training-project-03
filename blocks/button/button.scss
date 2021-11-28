@@ -11,9 +11,14 @@
   text-align: center;
   margin: 0;
   padding: 13px 16px;
+  transition: opacity .2s linear;
 
   &::before {
     content: 'Отремонтируйте камеру ✌️';
+  }
+
+  &:hover {
+    opacity: .9;
   }
 }
 

@@ -2,9 +2,14 @@
   width: 265px;
   border-radius: 10px;
   background-color: $colorCards;
+  transition: .15s linear;
+
+  &:hover {
+    background-color: $colorHoverCards;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .guarantee__item {
     flex-grow: 1;
   }
