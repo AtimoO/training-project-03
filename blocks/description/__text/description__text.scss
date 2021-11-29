@@ -5,3 +5,18 @@
   line-height: 40px;
   margin: 0 auto 60px;
 }
+
+@media screen and (max-width: 768px) {
+  .description__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .description__text {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+}

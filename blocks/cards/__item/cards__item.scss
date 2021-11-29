@@ -1,5 +1,23 @@
 .cards__item {
-  width: 550px;
+  max-width: 550px;
   border-radius: 16px;
   background-color: $colorCards;
+  transition: .15s linear;
+
+  &:hover {
+    background-color: $colorHoverCards;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__item {
+    max-width: 648px;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .cards__item {
+    min-width: 280px;
+  }
 }

@@ -1,13 +1,19 @@
 /* vendor */
 @import '../vendor/normalize';
 @import '../vendor/fonts';
+
+/* variables */
 @import '../blocks/variables.scss';
-@import '../blocks/mixins.scss';
+
+/* page */
 @import '../blocks/page/page.scss';
 
 /* section */
 @import '../blocks/section/section.scss';
 @import '../blocks/section/__title/section__title.scss';
+
+/* link */
+@import '../blocks/link/link.scss';
 
 /* header */
 @import '../blocks/header/header.scss';
@@ -16,6 +22,8 @@
 
 /* logo */
 @import '../blocks/logo/logo.scss';
+@import '../blocks/logo/_indent-header/logo_indent-header.scss';
+@import '../blocks/logo/_indent-footer/logo_indent-footer.scss';
 @import '../blocks/logo/__title/logo__title.scss';
 @import '../blocks/logo/__opened/logo__opened.scss';
 
@@ -23,15 +31,15 @@
 @import '../blocks/repair/repair.scss';
 @import '../blocks/repair/__container/repair__container.scss';
 @import '../blocks/repair/__input-email/repair__input-email.scss';
+@import '../blocks/repair/__input-email/_size/repair__input-email_size.scss';
 @import '../blocks/repair/__caption/repair__caption.scss';
+@import '../blocks/repair/__caption/_indent/repair__caption_indent.scss';
 
 /* button */
 @import '../blocks/button/button.scss';
-@import '../blocks/button/_support/button_support.scss';
 
 /* intro */
 @import '../blocks/intro/intro.scss';
-@import '../blocks/intro/__contrainer/intro__container.scss';
 @import '../blocks/intro/__items/intro__items.scss';
 @import '../blocks/intro/__item/intro__item.scss';
 @import '../blocks/intro/__image/intro__image.scss';
@@ -59,6 +67,9 @@
 /* support */
 @import '../blocks/support/support.scss';
 @import '../blocks/support/__text/support__text.scss';
+@import '../blocks/support/__button/support__button.scss';
 
 /* footer */
 @import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__container/footer__container.scss';
+@import '../blocks/footer/__copyright/footer__copyright.scss';
