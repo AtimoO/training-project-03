@@ -1,0 +1,19 @@
+.guarantee__item {
+  width: 265px;
+  border-radius: 10px;
+  background-color: $colorCards;
+  transition: .15s linear;
+
+  &:hover {
+    background-color: $colorHoverCards;
+  }
+
+  @include _768 {
+    flex-grow: 1;
+  }
+
+  @include _567 {
+    min-width: 280px;
+    min-height: 148px;
+  }
+}

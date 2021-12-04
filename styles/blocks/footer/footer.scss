@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 180px;
+  padding-bottom: 60px;
+
+  &::before {
+    content: "";
+    background-color: #151515;
+    width: calc(100% - 320px);
+    height: 2px;
+    position: absolute;
+  }
+
+  @include _1023 {
+    padding-top: 150px;
+
+    &::before {
+      width: calc(100% - 120px);
+    }
+  }
+
+  @include _567 {
+    padding-bottom: 20px;
+
+    &::before {
+      width: calc(100% - 40px);
+    }
+  }
+}

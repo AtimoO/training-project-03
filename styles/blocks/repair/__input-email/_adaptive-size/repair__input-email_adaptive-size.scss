@@ -1,0 +1,7 @@
+.repair__input-email_adaptive-size {
+  min-width: 316px;
+
+  @include _567 {
+    min-width: 197px;
+  }
+}
