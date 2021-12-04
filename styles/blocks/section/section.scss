@@ -1,0 +1,14 @@
+.section {
+  padding-left: 160px;
+  padding-right: 160px;
+
+  @include _1023 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  @include _567 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

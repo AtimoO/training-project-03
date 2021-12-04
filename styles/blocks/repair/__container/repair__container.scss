@@ -1,0 +1,8 @@
+.repair__container {
+  display: flex;
+  margin-top: 84px;
+
+  @include _567 {
+    margin-top: 184px;
+  }
+}

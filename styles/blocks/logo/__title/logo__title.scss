@@ -1,0 +1,11 @@
+.logo__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: $fontWeigthRegular;
+  line-height: 30px;
+
+  @include _567 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

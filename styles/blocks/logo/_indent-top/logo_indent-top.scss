@@ -1,0 +1,7 @@
+.logo_indent-top {
+  padding-top: 60px;
+
+  @include _567 {
+    padding-top: 30px;
+  }
+}

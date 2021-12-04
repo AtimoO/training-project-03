@@ -1,0 +1,14 @@
+.cards__description {
+  font-size: 32px;
+  font-weight: $fontWeigthRegular;
+  line-height: 40px;
+  color: $colorSecondaryText;
+  padding: 40px;
+  margin: 0;
+
+  @include _567 {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 28px 20px 100px;
+  }
+}

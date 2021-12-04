@@ -1,0 +1,16 @@
+.section__title {
+  font-size: 32px;
+  font-weight: $fontWeigthRegular;
+  line-height: 40px;
+  margin: 0;
+
+  @include _768 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @include _567 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
