@@ -568,6 +568,12 @@ template {
 }
 .repair__input-email:focus {
   cursor: auto;
+  background-color: rgba(142, 142, 152, 0.3);
+}
+.repair__input-email:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
 }
 @media screen and (max-width: 768px) {
   .repair__input-email {

@@ -22,7 +22,13 @@
 
   &:focus {
     cursor: auto;
+    background-color: rgba(142, 142, 152, .3);
   }
+
+  &:-webkit-autofill {
+  -webkit-text-fill-color: $colorPrimaryText;
+  transition: background-color 5000s ease-in-out 0s;
+}
 
   @include _768 {
     min-width: min(395px, calc(100% - 150px));
