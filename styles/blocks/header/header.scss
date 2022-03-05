@@ -1,0 +1,13 @@
+.header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @include _768 {
+    padding-bottom: 32px;
+  }
+
+  @include _567 {
+    padding-top: 24px;
+    padding-bottom: 20px;
+  }
+}

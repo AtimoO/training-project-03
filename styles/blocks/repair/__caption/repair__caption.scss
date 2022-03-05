@@ -1,0 +1,11 @@
+.repair__caption {
+  margin: 12px 0 0;
+  color: #47474c;
+  font-size: 12px;
+  font-weight: $fontWeigthRegular;
+  line-height: 18px;
+
+  @include _768 {
+    margin-top: 10px;
+  }
+}

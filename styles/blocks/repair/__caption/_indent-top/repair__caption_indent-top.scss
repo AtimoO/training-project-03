@@ -1,0 +1,7 @@
+.repair__caption_indent-top {
+  margin-top: 18px;
+
+  @include _567 {
+    margin-top: 10px;
+  }
+}

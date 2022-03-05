@@ -1,0 +1,19 @@
+.cards__item {
+  max-width: 550px;
+  border-radius: 16px;
+  background-color: $colorCards;
+  transition: .15s linear;
+
+  &:hover {
+    background-color: $colorHoverCards;
+  }
+
+  @include _768 {
+    max-width: 648px;
+    flex-grow: 1;
+  }
+
+  @include _567 {
+    min-width: 280px;
+  }
+}

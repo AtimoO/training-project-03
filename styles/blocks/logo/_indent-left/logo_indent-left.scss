@@ -1,0 +1,7 @@
+.logo_indent-left {
+  margin-left: 6px;
+
+  @include _1023 {
+    margin-left: 0px;
+  }
+}
